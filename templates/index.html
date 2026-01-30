@@ -3,6 +3,8 @@
 {% block title %}Home{% endblock title %}Home
 
 {% block body %}
+
+{% load static %}
 <div class="continer">
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
@@ -30,7 +32,9 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
-          src="https://picsum.photos/1700/400"
+          src={% static "title1.webp" %}
+          width = "425"
+          height="370"
           class="d-block w-100 mx-auto"
           alt="..."
         />
@@ -100,9 +104,10 @@
 
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
-          class="d-block w-100 mx-auto"
-          alt="..."
+          src="{% static "strawberry.jpg.png" %}"
+          width="415"
+          height="235"
+          alt="Vanilla Image"
         />
       </svg>
       <div class="card-body">
@@ -137,9 +142,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "chocolate.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -174,9 +181,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "Mint_chocolate.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -211,9 +220,11 @@
       > -->
         <title>Placeholder</title>
        <img
-          src="https://picsum.photos/1700/930"
+          src={% static "Vanila.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -248,9 +259,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "ButterScotch.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -285,9 +298,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "choco_chip.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -322,9 +337,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "pistachio.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -359,9 +376,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "Mango.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
@@ -396,9 +415,11 @@
       > -->
         <title>Placeholder</title>
         <img
-          src="https://picsum.photos/1700/930"
+          src={% static "rassberry.jpg.png" %}
+          width="415"
+          height="235"
           class="d-block w-100 mx-auto"
-          alt="..."
+          alt="Chocolate Flavour"
         />
       </svg>
       <div class="card-body">
