@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
   </head>
+  
+
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
@@ -92,5 +94,14 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script>
+  document.querySelectorAll(".buy-btn").forEach(button => {
+    button.addEventListener("click", function () {
+      document.getElementById("modalTitle").innerText = this.dataset.name;
+      document.getElementById("modalImg").src = this.dataset.img;
+      document.getElementById("modalPrice").innerText = this.dataset.price;
+    });
+  });
+</script>
   </body>
 </html>
